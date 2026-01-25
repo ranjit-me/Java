@@ -151,6 +151,6 @@ public class pattern {
             // p1.pattern7(3);
             // p1.pattern8(4);
             // p1.pattern8(4);
-            // p1.pattern9(3);
+            p1.pattern9(3);
     }
 }
