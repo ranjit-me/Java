@@ -10,7 +10,7 @@ class Data{
     }
 }
 public class Collection {
-
+//ArrayList
  public static void main(String[] args) {
     ArrayList<Integer>aList=new ArrayList<>();
     aList.add(12);
