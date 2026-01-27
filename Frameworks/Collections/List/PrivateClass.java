@@ -59,7 +59,7 @@ class InternalData{
         this.revenue=_revenue;
     }
 }
-public class Basic {
+public class PrivateClass {
     public static void main(String[] args) {
         Data d1=new Data(12,"Ranjit",1200);
         Data d2=new Data(24,"Raaj",1300);
