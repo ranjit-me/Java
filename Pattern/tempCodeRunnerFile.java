@@ -1,5 +1,11 @@
-
-            for(int j=1;j<=i;j++){
-                System.out.print("*");
-            }
-        }
+ // p1.pattern1(4);
+            // p1.pattern2(5);
+            // p1.pattern3(5);
+            // p1.pattern4(5);
+            // p1.pattern5(4);
+            // p1.pattern6(6);
+            // p1.pattern7(3);
+            // p1.pattern8(4);
+            // p1.pattern8(4);
+            // p1.pattern9(3);
+            // p1.pattern10(4);

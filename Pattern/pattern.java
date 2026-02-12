@@ -1,7 +1,7 @@
 // package Pattern;
 
 public class pattern {
-    public void patter1(int n){
+    public void pattern1(int n){
         for(int i=1;i<n;i++){
             for(int j=1;j<=n;j++){
                 System.out.print("*");
@@ -140,9 +140,60 @@ public class pattern {
             System.out.println();
         }
     }
+    public void pattern10(int n) {
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=n-1;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        /*
+            *
+            **
+            ***
+            ****
+            ***
+            **
+            *
+        */
+    }
+    public void pattern11(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=2*i-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=n;i>=1;i--){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=2*i-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+            //    *
+            //   ***
+            //  *****
+            // *******
+            // *******
+            //  *****
+            //   ***
+            //    *
+    }
     public static void main(String args[]){
             pattern p1= new pattern();
-            // p1.patter1(4);
+            // p1.pattern1(4);
             // p1.pattern2(5);
             // p1.pattern3(5);
             // p1.pattern4(5);
@@ -151,6 +202,8 @@ public class pattern {
             // p1.pattern7(3);
             // p1.pattern8(4);
             // p1.pattern8(4);
-            p1.pattern9(3);
+            // p1.pattern9(3);
+            // p1.pattern10(4);
+            p1.pattern11(4);
     }
 }
