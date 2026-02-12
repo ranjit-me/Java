@@ -9,7 +9,7 @@ class Data{
         this.name=_name;
     }
 }
-public class Collection {
+public class ArrayListR {
 //ArrayList
  public static void main(String[] args) {
     ArrayList<Integer>aList=new ArrayList<>();

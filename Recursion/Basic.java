@@ -1,13 +1,16 @@
 
 public class Basic {
-    public static void print(){
-        System.out.println("Hello");
-        for(int i=1;i<5;i++){
+    public  void print(){
+        
+        for(int i=0;i<5;i++){
+            System.out.println("Hello");
             print();
         }
+        // print();
+        return;
     }
 public static void main(String[] args) {
-    System.out.println("Ranji");
-    print();
+    Basic b1=new Basic();
+    b1.print();
 }    
 }

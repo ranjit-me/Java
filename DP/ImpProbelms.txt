@@ -1,0 +1,7 @@
+1)Fibbonaci
+2)0-1 Knapsack
+3)Unbounded Knapsack
+4)LCS (Longest Common Subsequance
+5)Kandan's Algorithm (Arryas)
+6)Catalan Number 
+7)DP on Grid (2D Arryas)
