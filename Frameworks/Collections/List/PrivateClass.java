@@ -24,6 +24,9 @@
 //   a)ListIterator
 // 5)Custom Comparator
 // 6)Commom Algorithms
+
+import Arraylist.Data;
+
 class Data{
     private Integer num;
     private String name;
