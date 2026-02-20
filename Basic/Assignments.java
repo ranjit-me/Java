@@ -30,7 +30,7 @@ public class Assignments {
         Feb2026 f1 = new Feb2026();
 
 
-        
+        System.out.println("Hello");
         System.out.println(f1.ass1(1000, 200, 150));
         System.out.println(f1.areaOfTrangle(1, 2));
         System.out.println(f1.areaParallelogram(5, 8));
